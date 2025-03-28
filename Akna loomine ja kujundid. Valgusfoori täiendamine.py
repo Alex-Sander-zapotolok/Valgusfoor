@@ -15,10 +15,10 @@ DARK = (30, 30, 30)
 
 screen.fill(BLACK)
 
-pygame.draw.polygon(screen, WHITE, [(105, 350), (195, 350), (150, 380)], 2)
 pygame.draw.polygon(screen, BLUE, [(110, 350), (190, 350), (150, 380)])
-pygame.draw.polygon(screen, BLACK, [(115, 360), (185, 360), (150, 370)])
-pygame.draw.polygon(screen, WHITE, [(120, 370), (180, 370), (150, 375)])
+pygame.draw.polygon(screen, BLACK, [(120, 360), (180, 360), (150, 380)])
+pygame.draw.polygon(screen, WHITE, [(132, 370), (168, 370), (150, 380)])
+pygame.draw.polygon(screen, WHITE, [(108, 348), (195, 348), (150, 383)], 2)
 
 pygame.draw.rect(screen, WHITE, (138, 150, 24, 200), 2)
 pygame.draw.rect(screen, DARK, (140, 150, 20, 200))
